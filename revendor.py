@@ -1,12 +1,12 @@
 # salario = salarioFixo + comissaoFixa + (vendas * 5/100)
 nome = input("Digite o nome do funcionário: ")
-vendasCarro = int(input("Digite o total de carros vendidos: "))
-vendasTotal = int(input("Digite o total de vendas por mês: "))
-salarioFixo = int(input("Digite o salário fixo: "))
+vendas_carro = float(input("Digite o total de carros vendidos: "))
+vendas_total = float(input("Digite o total de vendas por mês: "))
+salario_fixo = float(input("Digite o salário fixo: "))
 comissao = int(input("Comissão por carro vendido: "))
 
-comissaoFixa = comissao * vendasCarro
+comissao_fixa = comissao * vendas_carro
 
-salarioFinal = salarioFixo + comissaoFixa + ( vendasTotal* 0.05)
+salario_final = salario_fixo + comissao_fixa + ( vendas_total* 0.05)
 
-print("O salário final de", nome, " é R$",salarioFinal)
+print("O salário final de", nome, " é R$",salario_final)
