@@ -10,4 +10,4 @@ qt3 = float(input("Quantidade do salgado 3: "))
 
 valor_total = (valor_bolo + (qt1*salgado1) + (qt2*salgado2) + (qt3*salgado3)) / 11
 
-print(f"O valor total pago por cada membro da festa é {valor_total:f.2}")
+print(f"O valor total pago por cada membro da festa é {valor_total}")
